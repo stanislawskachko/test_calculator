@@ -1,0 +1,66 @@
+body {
+    width: 400px;
+    margin: 4% auto;
+    font-family: monospace;
+    font-size: 2.5rem;
+}
+
+.calculator {
+    padding: 17px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+.input {
+    border: 1px solid black;
+    height: 60px;
+    text-align: right;
+    font-size: 2.5rem;
+    overflow-x: auto;
+}
+
+.operators div {
+    display: inline-block;
+    border-radius: 50%;
+    width: 30px;
+    text-align: center;
+    padding: 10px 15px 10px 15px;
+    margin: 20px 9px 10px 8px;
+    cursor: pointer;
+    background-color: silver;
+}
+
+.leftPanel {
+    display: inline-block;
+}
+
+.numbers div {
+    display: inline-block;
+    border-radius: 50%;
+    width: 30px;
+    text-align: center;
+    padding: 10px 15px 10px 15px;
+    margin: 10px 9px 10px 8px;
+    cursor: pointer;
+    background-color: green;
+}
+
+div.equal {
+    display: inline-block;
+    border-radius: 10px;
+    width: 8%;
+    text-align: center;
+    padding: 125px 13px;
+    margin: 10px 0px 10px 11px;
+    vertical-align: top;
+    cursor: pointer;
+    background-color: orange;
+}
+
+.operators div:hover, .numbers div:hover, div.equal:hover {
+    opacity: 0.5;
+}
+
+.numbers div:active, .operators div:active, div.equal:active {
+    color: yellow;
+}
